@@ -20,16 +20,16 @@ export default function Home() {
     <main className="">
       <h1>Criar Agendamento</h1>
       <form action="">
-        <label for="name">Profissional</label>
+        <label>Profissional</label>
         <input type="text" id="name" name="name"/>
         <br/>
-        <label for="name">Seu Nome</label>
+        <label>Seu Nome</label>
         <input type="text" id="name" name="name"/>
         <br/>
-        <label for="service">Serviço</label>
+        <label>Serviço</label>
         <input type="text" id="service" name="service" />
         <br/>
-        <label for="service">Data de agendamento</label>
+        <label>Data de agendamento</label>
         <input type="text" id="schedule" name="schedule" />
         <br/>
         <button>Agendar</button>

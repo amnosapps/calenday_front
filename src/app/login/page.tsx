@@ -20,10 +20,8 @@ export default function Login() {
     <main className="">
       <h1>Fazer Login</h1>
       <form action="">
-        <label for="name">Email</label>
         <input type="text" id="name" name="name"/>
         <br/>
-        <label for="name">Senha</label>
         <input type="text" id="name" name="name"/>
         <button>Login</button>
       </form>
