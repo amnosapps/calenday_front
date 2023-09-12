@@ -1,10 +1,10 @@
 "use client";
 
 import Image from 'next/image';
-import api from '../services/api';
+import api from '../../services/api';
 import { useEffect, useState } from 'react';
 
-export default function Home() {
+export default function Login() {
 
   const [message, setMessage] = useState("");
 
@@ -18,21 +18,14 @@ export default function Home() {
 
   return (
     <main className="">
-      <h1>Criar Agendamento</h1>
+      <h1>Fazer Login</h1>
       <form action="">
-        <label for="name">Profissional</label>
+        <label for="name">Email</label>
         <input type="text" id="name" name="name"/>
         <br/>
-        <label for="name">Seu Nome</label>
+        <label for="name">Senha</label>
         <input type="text" id="name" name="name"/>
-        <br/>
-        <label for="service">Serviço</label>
-        <input type="text" id="service" name="service" />
-        <br/>
-        <label for="service">Data de agendamento</label>
-        <input type="text" id="schedule" name="schedule" />
-        <br/>
-        <button>Agendar</button>
+        <button>Login</button>
       </form>
     </main>
   )
