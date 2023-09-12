@@ -49,7 +49,6 @@ export const FooterWrapper = styled.div`
     bottom: 50px; /* Coloca a div na parte inferior da janela */
     left: 0; /* Opcional: alinhar à esquerda */
     right: 0; /* Opcional: alinhar à direita */
-    background-color: #f1f1f1; /* Cor de fundo desejada */
     padding: 10px; /* Preenchimento desejado */
 
     .scheduleButton{
